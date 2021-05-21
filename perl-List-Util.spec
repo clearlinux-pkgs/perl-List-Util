@@ -87,8 +87,8 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/List/Util.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/List/Util/XS.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Scalar/Util.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Sub/Util.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/List/Util/Util.so
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/List/Util.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/List/Util/XS.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Scalar/Util.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Sub/Util.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/List/Util/Util.so
