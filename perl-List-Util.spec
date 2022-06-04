@@ -4,7 +4,7 @@
 #
 Name     : perl-List-Util
 Version  : 1.60
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.60.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.60.tar.gz
 Summary  : 'Common Scalar and List utility subroutines'
@@ -87,8 +87,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/List/Util.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/List/Util/XS.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Scalar/Util.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Sub/Util.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/List/Util/Util.so
+/usr/lib/perl5/*
