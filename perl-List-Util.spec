@@ -7,7 +7,7 @@
 #
 Name     : perl-List-Util
 Version  : 1.68
-Release  : 23
+Release  : 24
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.68.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.68.tar.gz
 Summary  : 'Common Scalar and List utility subroutines'
